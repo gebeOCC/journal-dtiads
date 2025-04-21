@@ -19,12 +19,12 @@ import { ModeToggle } from "@/Components/mode-toggle";
 
 const NavItems = [
   {
-    title: 'Research Journals',
-    href: '/research-journals'
+    title: 'About Us',
+    href: '/about-us'
   },
   {
-    title: 'About Us',
-    href: '#'
+    title: 'Research Journals',
+    href: '/research-journals'
   },
   {
     title: 'Contact Us',

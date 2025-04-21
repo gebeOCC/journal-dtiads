@@ -16,7 +16,7 @@ import {
     PaginationPrevious,
 } from "@/Components/ui/pagination";
 
-const Index = () => {
+const ResearchJournal = () => {
     const { journals } = usePage().props;
     const [search, setSearch] = useState("");
 
@@ -129,4 +129,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default ResearchJournal;

@@ -89,7 +89,7 @@ class WebController extends Controller
             ->latest()
             ->paginate(50);
 
-        return Inertia::render("Web/ResearchJournal/Index", [
+        return Inertia::render("Web/ResearchJournal/ResearchJournalLayout", [
             "journals" => $journals
         ]);
     }
